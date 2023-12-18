@@ -1,0 +1,17 @@
+.presentation-container {
+   margin: 58px 6%;
+}
+.presentation-title {
+   font-size: 25px;
+}
+.presentation-container p {
+   font-size: 18px;
+   line-height: 1.5rem;
+   font-weight: 300;
+}
+.presentation-container span {
+   font-weight: 400;
+}
+.presentation-para2 {
+   margin-top: 25px;
+}

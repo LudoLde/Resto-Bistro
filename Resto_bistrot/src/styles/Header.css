@@ -4,6 +4,8 @@
    font-family: "Pixelify Sans", sans-serif;
    color: wheat;
    padding-left: 8px;
+   position: relative;
+   z-index: 3;
 }
 
 .navbar {
@@ -69,6 +71,7 @@
    .show-nav .navbar__links {
       right: 0;
       width: 100vw;
+      z-index: 2;
    }
    .navbar__link {
       display: block;
@@ -112,5 +115,6 @@
    }
    .show-nav .navbar__bar {
       background: transparent;
+      z-index: 2;
    }
 }

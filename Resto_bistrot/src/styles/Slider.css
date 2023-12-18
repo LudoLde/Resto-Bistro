@@ -1,6 +1,30 @@
-.slider-container {
+@import "react-slideshow-image/dist/styles.css";
+
+.slider-img {
+   height: 616px;
+   object-fit: fill;
+   width: 100%;
 }
-.slider {
+.text-overlay {
+   z-index: 1;
+   position: absolute;
+   color: white;
+   top: 20%;
+   left: 3%;
+   text-align: center;
+   text-shadow: 1px 2px black;
+   font-size: 25px;
+   width: 90%;
+   line-height: 1.3em;
 }
-.slider_image {
+.btn-slider {
+   position: absolute;
+   bottom: 21rem;
+   left: 100px;
+   margin-top: 8px;
+   color: white;
+   font-size: 16px;
+   background-color: #222c41;
+   border: none;
+   height: 46px;
 }
