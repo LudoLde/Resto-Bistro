@@ -1,0 +1,56 @@
+.section-about-team {
+   display: flex;
+   flex-direction: column;
+}
+.img-showed {
+   transform: translateX(200%);
+   opacity: 0;
+   transition: transform 1s ease-out, opacity 1s ease-out;
+}
+.img-showed.show-element1 {
+   opacity: 1;
+   transform: translateX(0);
+}
+.first-part {
+   width: 94%;
+   text-align: center;
+   margin: 10px auto 80px;
+   transform: translateX(-100%);
+   opacity: 0;
+   transition: transform 1s ease-out, opacity 1s ease-out;
+}
+.first-part.show-element2 {
+   opacity: 1;
+   transform: translateX(0);
+}
+.first-part h2 {
+   font-size: 2rem;
+   font-weight: 700;
+}
+.section-about-team p {
+   line-height: 25px;
+   font-size: 1.1rem;
+}
+.section-about-team span {
+   font-weight: 600;
+}
+.second-part {
+   width: 94%;
+   text-align: center;
+   margin: 10px auto 80px;
+}
+.second-part h3 {
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+
+.btn-about-restaurant {
+   background-color: #222c41;
+   color: white;
+   width: 216px;
+   height: 48px;
+   font-size: 1rem;
+   margin: 50px 0 70px;
+   border: none;
+   align-self: center;
+}

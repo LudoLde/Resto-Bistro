@@ -1,0 +1,10 @@
+.menu-slider-container {
+   width: 95%;
+   margin: 25px auto;
+   height: 532px;
+}
+.menu-slider-img {
+   object-fit: fill;
+   height: 532px;
+   width: 100%;
+}

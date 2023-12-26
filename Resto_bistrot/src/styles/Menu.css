@@ -1,0 +1,67 @@
+.section-menu {
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+}
+.menu-container {
+   display: flex;
+   flex-direction: column;
+}
+.section-menu h2 {
+   font-size: 2.3rem;
+   text-align: center;
+   margin: 0;
+}
+.section-menu h3 {
+   text-align: center;
+   font-size: 1.7rem;
+   margin: 0;
+}
+.menu-container-infos {
+   margin: 15px auto 20px;
+   padding: 17px;
+   text-align: center;
+}
+.menu-container-infos-para {
+   font-size: 17px;
+   margin: 10px 16px;
+}
+.menu-container-infos-para span {
+   font-weight: 700;
+}
+.menu-dishes-info {
+   text-align: left;
+   font-size: 14px;
+   margin: 0 auto 25px;
+   width: 95%;
+}
+.menu-dishes-info span {
+   font-family: "Cormorant Garamond";
+}
+.menu-name {
+   font-weight: 600;
+   font-size: 22px;
+}
+.menu-name-details {
+   font-size: 16px;
+   font-weight: 500;
+}
+.menu-price {
+   font-weight: 600;
+   font-size: 19px;
+}
+.menu-dishes-details {
+   font-size: 13px;
+   font-weight: 200;
+   width: 88%;
+}
+.btn-show-menu {
+   background-color: #222c41;
+   color: white;
+   width: 167px;
+   height: 48px;
+   font-size: 1rem;
+   margin: 50px 0 70px;
+   border: none;
+   align-self: center;
+}
