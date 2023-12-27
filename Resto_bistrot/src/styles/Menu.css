@@ -65,3 +65,18 @@
    border: none;
    align-self: center;
 }
+
+@media screen and (min-width: 767px) {
+   .menu-dishes-info {
+      text-align: center;
+   }
+   .menu-name {
+      font-size: 31px;
+   }
+   .menu-name-details {
+      font-size: 25px;
+   }
+   .menu-price {
+      font-size: 31px;
+   }
+}
