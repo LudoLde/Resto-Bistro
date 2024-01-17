@@ -54,3 +54,23 @@
    border: none;
    align-self: center;
 }
+@media screen and (min-width: 1200px) {
+   .first-part h2 {
+      font-size: 2.5rem;
+   }
+   .section-about-team p {
+      font-size: 1.25rem;
+      line-height: 33px;
+   }
+   .second-part img {
+      width: 57%;
+   }
+   .second-part h3 {
+      font-size: 1.85rem;
+   }
+   .btn-about-restaurant {
+      width: 239px;
+      font-size: 1.25rem;
+      height: 60px;
+   }
+}

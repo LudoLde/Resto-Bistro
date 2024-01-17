@@ -2,7 +2,7 @@
 
 .slider-img {
    height: 616px;
-   object-fit: fill;
+   object-fit: cover;
    width: 100%;
 }
 .text-overlay {
@@ -27,4 +27,23 @@
    background-color: #222c41;
    border: none;
    height: 46px;
+}
+@media screen and (min-width: 1200px) {
+   .text-overlay {
+      font-size: 45px;
+   }
+   .btn-slider {
+      left: 40rem;
+      bottom: 5rem;
+      font-size: 22px;
+      height: 53px;
+   }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+   .text-overlay {
+      font-size: 30px;
+   }
+   .btn-slider {
+      left: 288px;
+   }
 }

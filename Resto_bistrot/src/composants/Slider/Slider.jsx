@@ -5,15 +5,15 @@ import "react-slideshow-image/dist/styles.css";
 
 const fadeImages = [
    {
-      url: "./Slider/img-slider1.jpeg",
+      url: "./Slider/img-slider1.png",
       text: "Votre nouvelle expérience culinaire à Paris",
    },
    {
-      url: "./Slider/img-slider2.jpeg",
+      url: "./Slider/img-slider2.png",
       text: "Un cadre élégant, design et romantique",
    },
    {
-      url: "./Slider/img-slider3.jpeg",
+      url: "./Slider/img-slider3.png",
       text: "La prommesse d'un voyage inédit entre Paris et Tokyo",
    },
 ];
@@ -21,7 +21,7 @@ const fadeImages = [
 const Slider = () => {
    return (
       <div className="slide-container">
-         <Fade prevArrow={<div />} nextArrow={<div />}>
+         <Fade prevArrow={<div />} nextArrow={<div />} style={{ width: "100vh" }}>
             {fadeImages.map((fadeImage, index) => (
                <div className="slider" key={index}>
                   <img className="slider-img" src={fadeImage.url} />

@@ -8,3 +8,13 @@
    height: 532px;
    width: 100%;
 }
+@media screen and (min-width: 1200px) {
+   .menu-slider-img {
+      object-fit: contain;
+   }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+   .menu-slider-img {
+      object-fit: contain;
+   }
+}

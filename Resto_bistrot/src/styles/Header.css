@@ -49,15 +49,26 @@
 }
 
 @media screen and (min-width: 1200px) {
+   .navbar {
+      justify-content: normal;
+      column-gap: 57%;
+      font-size: 20px;
+   }
    .navbar-logo {
       font-size: 3rem;
-      padding-left: 20px;
+      padding-left: 25px;
    }
    .navbar-item {
       font-size: 24px;
    }
+   .navbar__links {
+      justify-content: space-between;
+      column-gap: 13%;
+      padding: 0;
+   }
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 768px) {
    .navbar__links {
       flex-direction: column;
       justify-content: center;
