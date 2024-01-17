@@ -12,6 +12,10 @@ library.add(fab, far, fas);
 // https://vitejs.dev/config/
 export default defineConfig({
    plugins: [react(), reactSlideshowImage],
+   jsx: {
+      factory: "React.createElement",
+      fragment: "React.Fragment",
+   },
    build: {
       rollupOptions: {
          external: [
