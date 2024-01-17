@@ -1,8 +1,8 @@
 import React from "react";
 import "../../styles/MenuSlider.css";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Fade } from "react-slideshow-image";
+import "../../styles/Slider.css";
+import "react-slideshow-image/dist/styles.css";
 
 const sliderImgData = [
    {
@@ -23,25 +23,15 @@ const sliderImgData = [
 ];
 
 const MenuSlider = () => {
-   const settings = {
-      dots: true,
-      infinite: true,
-      speed: 700,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 5000, // Défilement automatique toutes les 3 secondes
-   };
-
    return (
       <div className="menu-slider-container">
-         <Slider {...settings}>
+         <Fade prevArrow={<div />} nextArrow={<div />}>
             {sliderImgData.map((sliderImg, index) => (
-               <div key={index} className="slider">
-                  <img src={sliderImg.image} className="menu-slider-img" />
+               <div className="inner-menu-slider" key={index}>
+                  <img className="img-inner-slider" src={sliderImg.image} alt="dishes" />
                </div>
             ))}
-         </Slider>
+         </Fade>
       </div>
    );
 };

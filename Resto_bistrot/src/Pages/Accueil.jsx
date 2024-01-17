@@ -9,7 +9,7 @@ import Slider from "../composants/Slider/Slider";
 
 const Accueil = () => {
    return (
-      <main style={{ overflow: "hidden" }}>
+      <main>
          <Header />
          <Slider />
          <Presentation />
